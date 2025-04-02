@@ -2,7 +2,7 @@
 
 **Signalyze** is a traffic sign recognition system designed specifically for Indian roads. It uses computer vision and deep learning to detect and classify traffic signals into 37 predefined classes in real time. Once a traffic sign is recognized, the system provides an audio response, assisting drivers in navigating the busy roadways of India.
 
-In addition to its core detection functionality, Signalyze includes an optional authentication system using NextAuth.js (Auth.js), Prisma ORM, and PostgreSQL. This authentication layer enables users to store each their detection history. The detection history is then presented on a dashboard, where users can view overall statistics, detailed breakdowns (such as total detections, unique signs, and the most frequently detected sign), and interactive charts showing monthly trends by traffic sign type.
+In addition to its core detection functionality, Signalyze includes an optional authentication system using NextAuth.js (Auth.js), Prisma ORM, and PostgreSQL. This authentication layer enables users to store each of their detections. The detections are then presented on a dashboard, where users can view overall statistics, detailed breakdowns (such as total detections, unique signs, and the most frequently detected sign), and interactive charts showing monthly trends by traffic sign type.
 
 The system has been trained on the labelled **Indian Road Traffic Sign Detection dataset** and uses a YOLO v8 (small) model, achieving a mAP (mean Average Precision) of 82% (ranging from 50% to 95% across various classes).
 
