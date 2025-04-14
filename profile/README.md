@@ -21,17 +21,24 @@ The system has been trained on the labelled **Indian Road Traffic Sign Detection
 ## Tech Stack
 
 - **Frontend**:
-  - [Next.js](https://nextjs.org/)
-  - [shadcn UI](https://ui.shadcn.com/)
-  - [TailwindCSS](https://tailwindcss.com/)
+  - [TypeScript](https://www.typescriptlang.org)
+  - [Next.js](https://nextjs.org)
+  - [shadcn UI](https://ui.shadcn.com)
+  - [TailwindCSS](https://tailwindcss.com)
+  - [Framer Motion (Motion)](https://motion.dev)
+
+- **Database and Authentication:**
   - [NextAuth.js (Auth.js)](https://authjs.dev)
-  - Hosted on [Vercel](https://vercel.com/)
+  - [Nodemailer](https://www.nodemailer.com)
+  - [Prisma ORM](https://www.prisma.io/orm)
+  - [PostgreSQL](https://www.postgresql.org)
 
 - **Backend**:
-  - [FastAPI](https://fastapi.tiangolo.com/)
+  - [FastAPI](https://fastapi.tiangolo.com)
 
 - **Model**:
   - [YOLO v8s](https://github.com/ultralytics/ultralytics)
+  - [Trained Model](https://github.com/Signalyze/irtsd-small)
   - [Indian Road Traffic Sign Detection dataset](https://ieee-dataport.org/documents/irtsd-datasetv1-indian-road-traffic-sign-detection-dataset)
   - [Annotated Indian Road Traffic Sign Detection dataset on Roboflow](https://universe.roboflow.com/aaa-t4bs0/my-second-project-eby1m/dataset/4)
 
